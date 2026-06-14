@@ -88,6 +88,8 @@ export default function App() {
     <>
       {!loaderDone && <PageLoader onDone={() => setLoaderDone(true)} />}
       
+// inside App():
+{/* Availability banner */}
 <div style={{
   position: "fixed",
   bottom: 0, left: 0, right: 0,
@@ -119,8 +121,7 @@ export default function App() {
     animation: "blink 1.5s ease-in-out infinite",
     flexShrink: 0,
   }} />
-      </div>
-      
+</div>
       <ProgressBar />
       <CustomCursor />
       <NavBar          name={data.hero.name} />
