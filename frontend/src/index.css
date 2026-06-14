@@ -960,3 +960,14 @@ body.dark a.btn-primary:visited {
 body.dark a.btn-outline:visited {
   color: var(--muted) !important;
 }
+/* Allow zoom */
+html {
+  touch-action: manipulation;
+  -ms-touch-action: manipulation;
+}
+
+/* Prevent text size adjust on orientation change */
+body {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
