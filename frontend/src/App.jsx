@@ -88,40 +88,6 @@ export default function App() {
     <>
       {!loaderDone && <PageLoader onDone={() => setLoaderDone(true)} />}
       
-// inside App():
-{/* Availability banner */}
-<div style={{
-  position: "fixed",
-  bottom: 0, left: 0, right: 0,
-  background: "var(--accent)",
-  color: "var(--bg)",
-  fontFamily: "var(--mono)",
-  fontSize: "0.72rem",
-  letterSpacing: "0.15em",
-  textAlign: "center",
-  padding: "0.6rem",
-  zIndex: 998,
-  display: "flex",
-  alignItems: "center",
-  justifyContent: "center",
-  gap: "0.75rem",
-}}>
-  <span style={{
-    width: "6px", height: "6px",
-    borderRadius: "50%",
-    background: "var(--bg)",
-    animation: "blink 1.5s ease-in-out infinite",
-    flexShrink: 0,
-  }} />
-  Open to work — Available for full-time roles & internships
-  <span style={{
-    width: "6px", height: "6px",
-    borderRadius: "50%",
-    background: "var(--bg)",
-    animation: "blink 1.5s ease-in-out infinite",
-    flexShrink: 0,
-  }} />
-</div>
       <ProgressBar />
       <CustomCursor />
       <NavBar          name={data.hero.name} />
