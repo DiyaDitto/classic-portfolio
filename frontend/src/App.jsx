@@ -88,7 +88,6 @@ export default function App() {
     <>
       {!loaderDone && <PageLoader onDone={() => setLoaderDone(true)} />}
       
-// inside App():
 {/* Availability banner */}
 <div style={{
   position: "fixed",
