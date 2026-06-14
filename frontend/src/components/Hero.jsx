@@ -101,9 +101,7 @@ export default function Hero({
   const magResume =
     useMagnetic(0.25);
 
-  const magPrint =
-    useMagnetic(0.25);
-
+  
   const nameRef =
     useRef(null);
 
@@ -158,7 +156,6 @@ export default function Hero({
       }}
     >
       <Particles />
-
       <Spotlight />
 
     <div
