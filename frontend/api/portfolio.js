@@ -72,19 +72,19 @@ const data = {
       name: "WE Start Pre-Incubation Program",
       issuer: "Kerala Startup Mission",
       date: "2024",
-      link: "/certificates/westart.png",
+      link: "/certifications/westart.png",
     },
     {
       name: "Python Foundation Certification",
       issuer: "Infosys Springboard",
       date: "2025",
-      link: "/certificates/pythoninfy.png",
+      link: "/certifications/pythoninfy.png",
     },
     {
       name: "React Developer Certification",
       issuer: "Great Learning",
       date: "2024",
-      link: "/certificates/reactgl.png",
+      link: "/certifications/reactgl.png",
     },
   ],
   education: {
