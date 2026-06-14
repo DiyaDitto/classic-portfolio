@@ -325,21 +325,7 @@ export default function Hero({
             Resume
           </a>
 
-          <button
-            ref={
-              magPrint
-            }
-            onClick={() =>
-              window.open(
-                
-              )
-            }
-            className="
-            
-            "
-          >
-            
-          </button>
+          
         </div>
 
         <div className="scroll-hint fade-4">
