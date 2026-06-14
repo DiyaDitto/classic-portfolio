@@ -75,13 +75,6 @@ function useTypingEffect(lines) {
 export default function Hero({
   hero,
 }) {
-  if (!hero) return null;
-
-  const {
-    name,
-    label,
-    description,
-  } = hero;
 
   const {
     displayed,
@@ -145,6 +138,13 @@ export default function Hero({
         onScroll
       );
   }, []);
+    if (!hero) return null;
+
+  const {
+    name,
+    label,
+    description,
+  } = hero;
 
   return (
     <section
