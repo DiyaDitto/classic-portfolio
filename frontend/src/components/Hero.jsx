@@ -1,6 +1,5 @@
 import { useState, useEffect, useRef } from "react";
 import { useMagnetic } from "../hooks/useMagnetic";
-import Spotlight from "./SpotLight";
 import Particles from "./Particles";
 
 const TYPING_LINES = [
@@ -156,7 +155,7 @@ export default function Hero({
       }}
     >
       <Particles />
-      <Spotlight />
+      
 
     <div
   style={{
