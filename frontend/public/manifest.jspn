@@ -1,0 +1,17 @@
+{
+  "name": "Diya Ditto — Portfolio",
+  "short_name": "Diya Ditto",
+  "description": "Fresher Computer Science Engineer Portfolio",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f5f0e8",
+  "theme_color": "#b8935a",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "64x64",
+      "type": "image/x-icon"
+    }
+  ]
+}
